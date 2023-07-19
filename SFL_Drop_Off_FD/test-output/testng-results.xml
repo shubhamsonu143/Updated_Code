@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-24T10:21:35Z" name="Default suite" finished-at="2023-03-24T10:23:25Z" duration-ms="110319">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T10:21:35Z" name="Default test" finished-at="2023-03-24T10:23:25Z" duration-ms="110319">
+      <class name="fd_run_package.FD_Runner">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:fd_run_package.FD_Runner@3a4621bd]" started-at="2023-03-24T10:21:35Z" name="beforeTest" finished-at="2023-03-24T10:21:51Z" duration-ms="16113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:fd_run_package.FD_Runner@3a4621bd]" started-at="2023-03-24T10:21:52Z" name="f1" data-provider="getTestData" finished-at="2023-03-24T10:23:25Z" duration-ms="93205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9999995542]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[603210.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CNFPA4239R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test@novactech.in]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[279515330854]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C:\Users\m1077\GIT_HUB\SFL_TESTING\FD_Project\src\main\java\Documents\tiger.JPG]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\Users\m1077\GIT_HUB\SFL_TESTING\FD_Project\src\main\java\Documents\Transaction number.JPG]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\Users\m1077\GIT_HUB\SFL_TESTING\FD_Project\src\main\java\Documents\tiger.JPG]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Queens Court Plot No 193]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Madurai meenakshi puram iyyenchery urapakkam]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[50100479920083]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[50100479920083]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[HDFC0000750]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[C:\Users\m1077\GIT_HUB\SFL_TESTING\FD_Project\src\main\java\Documents\Cancel Cheque.jpg]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Unmarried]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Rajendra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- fd_run_package.FD_Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
