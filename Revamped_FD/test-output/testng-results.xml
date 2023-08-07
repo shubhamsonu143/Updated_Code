@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-03T17:00:13 IST" name="Default suite" finished-at="2023-08-03T17:04:40 IST" duration-ms="267327">
+    <groups>
+    </groups>
+    <test started-at="2023-08-03T17:00:13 IST" name="Default test" finished-at="2023-08-03T17:04:40 IST" duration-ms="267327">
+      <class name="fd_runner_package.FD_Run">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:fd_runner_package.FD_Run@312aa7c]" started-at="2023-08-03T17:00:13 IST" name="beforeTest" finished-at="2023-08-03T17:01:27 IST" duration-ms="74248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:fd_runner_package.FD_Run@312aa7c]" started-at="2023-08-03T17:01:28 IST" name="f1" data-provider="getTestData" finished-at="2023-08-03T17:04:40 IST" duration-ms="192134" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7604926879]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[603210.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111111.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[800000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[On Maturity]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FGRPM1390D]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SHUBHAM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RAJENDRA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[279515330854]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[C:\Users\m1077\Desktop\4.JPG]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[C:\Users\m1077\Desktop\Adhaar Link.JPG]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[C:\Users\m1077\Desktop\tiger.JPG]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PlotNo 193]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Tambaram]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[50100479920083]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[50100479920083]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[HDFC0000750]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[ Savings]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[C:\Users\m1077\Desktop\tiger.JPG]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[ Engineer]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Unmarried]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Rajendra]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//select[@class='form__control ng-dirty ng-valid ng-touched'])[2]"}
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'NEWLNDVDI-0015', ip: '172.23.3.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a3f358f954dbd7aa6dc822e97f98ad4, findElement {using=xpath, value=(//select[@class='form__control ng-dirty ng-valid ng-touched'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\m1077\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61231/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a3f358f954dbd7aa6dc822e97f98ad4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//select[@class='form__control ng-dirty ng-valid ng-touched'])[2]"}
+  (Session info: chrome=115.0.5790.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'NEWLNDVDI-0015', ip: '172.23.3.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a3f358f954dbd7aa6dc822e97f98ad4, findElement {using=xpath, value=(//select[@class='form__control ng-dirty ng-valid ng-touched'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\m1077\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61231/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a3f358f954dbd7aa6dc822e97f98ad4
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+at fd_runner_package.fd_pre_executions.additionalDetailsScreen(fd_pre_executions.java:243)
+at fd_runner_package.FD_Run.f1(FD_Run.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- fd_runner_package.FD_Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
